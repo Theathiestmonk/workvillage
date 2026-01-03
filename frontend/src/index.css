@@ -74,3 +74,45 @@
   scrollbar-color: #4b5563 transparent;
 }
 
+/* Dark Scrollbar for Edit Profile Modal and Forms */
+.dark-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.dark-scrollbar::-webkit-scrollbar-track {
+  background: #374151;
+  border-radius: 4px;
+}
+
+.dark-scrollbar::-webkit-scrollbar-thumb {
+  background: #6b7280;
+  border-radius: 4px;
+}
+
+.dark-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* Firefox */
+.dark-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #6b7280 #374151;
+}
+
+/* Custom Checkbox and Radio Button Styles */
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+  accent-color: #21c45d;
+  background-color: #21c45d;
+}
+
+/* Additional styling for better appearance */
+input[type="checkbox"] {
+  accent-color: #21c45d;
+}
+
+input[type="radio"] {
+  accent-color: #21c45d;
+}
+
